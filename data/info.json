@@ -8,16 +8,8 @@
   },
   "certificados": [
     {
-      "titulo": "Projeto de capacitação, Trabalho em Equipe (Apoio Psicopedagógico)",
-      "imagem": "/certificados/capacitacao.jpg"
-    },
-    {
       "titulo": "Oratória, gestos e postura",
       "imagem": "/certificados/oratoria.jpg"
-    },
-    {
-      "titulo": "III Semana Acadêmica - FINAN",
-      "imagem": "/certificados/semanaAcad.jpg"
     },
     {
       "titulo": "Programa de Transporte Escolar",
@@ -26,6 +18,14 @@
     {
       "titulo": "Operador de Trator e Colhedora de Cana de Açucar",
       "imagem": "/certificados/trator.jpg"
+    },
+    {
+      "titulo": "Projeto de capacitação, Trabalho em Equipe (Apoio Psicopedagógico)",
+      "imagem": "/certificados/capacitacao.png"
+    },
+    {
+      "titulo": "III Semana Acadêmica - FINAN",
+      "imagem": "/certificados/semanaAcad.jpg"
     },
     {
       "titulo": "Oficina de Informática Básica e Google Apps",
