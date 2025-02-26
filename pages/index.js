@@ -19,13 +19,22 @@ export default function Home() {
         <Image
           src="/profile.jpeg"
           alt="Foto de Perfil"
-          width={250}
-          height={250}
+          width={10000}
+          height={10000}
           className={styles.profileImage}
         />
         <div className={styles.backImg}>
           <h1>{info.perfil.nome}</h1>
-          <p>{info.perfil.partido}</p>
+          <div className={styles.partidoContainer}>
+            <p className={styles.partido}>{info.perfil.partido}</p>
+            <Image
+              src="/icon.jpg"
+              alt="Ícone do Partido"
+              width={10000}
+              height={10000}
+              className={styles.sigla}
+            />
+          </div>
         </div>
       </div>
 
@@ -46,8 +55,8 @@ export default function Home() {
                 <Image
                   src={certificado.imagem}
                   alt={certificado.titulo}
-                  width={150}
-                  height={150}
+                  width={10000}
+                  height={10000}
                 />
               </li>
             ))}

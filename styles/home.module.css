@@ -50,6 +50,26 @@
   object-fit: cover; /* Garante que a imagem não achate */
 }
 
+.partidoContainer {
+  display: flex;
+  align-items: center; /* Alinha os itens verticalmente */
+  gap: 8px; /* Espaço entre a imagem e o texto */
+}
+
+.sigla {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 1rem;
+}
+
+.partido {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 15%;
+}
+
 .backImg {
   padding-top: 1.5rem;
   text-align: center;
@@ -94,7 +114,13 @@
   height: 15rem;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
+  .profileImage {
+    width: 150px; 
+    height: 150px;
+  }
+}
+@media (max-width: 700px) {
   .container {
     flex-direction: column;
     align-items: center;
