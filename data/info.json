@@ -1,0 +1,47 @@
+{
+  "perfil": {
+    "nome": "Regiane Santana Campos",
+    "partido": "Partido dos Republicanos",
+    "aniversario": "13/04/1983",
+    "cursando": "Serviço Social",
+    "desc": "Regiane Santana Campos é mãe de duas meninas, casada e servidora pública municipal concursada, com anos de dedicação ao serviço público e à comunidade. Movida pelo desejo de construir uma cidade melhor para todos, ela coloca sua experiência e compromisso à disposição da população. Como servidora pública, Regiane Santana Campos conhece de perto os desafios enfrentados pelos cidadãos e entende a importância de uma gestão eficiente, transparente e voltada para as reais necessidades da população."
+  },
+  "certificados": [
+    {
+      "titulo": "Projeto de capacitação, Trabalho em Equipe (Apoio Psicopedagógico)",
+      "imagem": "/certificados/capacitacao.jpg"
+    },
+    {
+      "titulo": "Oratória, gestos e postura",
+      "imagem": "/certificados/oratoria.jpg"
+    },
+    {
+      "titulo": "III Semana Acadêmica - FINAN",
+      "imagem": "/certificados/semanaAcad.jpg"
+    },
+    {
+      "titulo": "Programa de Transporte Escolar",
+      "imagem": "/certificados/transporte.jpg"
+    },
+    {
+      "titulo": "Operador de Trator e Colhedora de Cana de Açucar",
+      "imagem": "/certificados/trator.jpg"
+    },
+    {
+      "titulo": "Oficina de Informática Básica e Google Apps",
+      "imagem": "/certificados/ofcInfo.jpg"
+    },
+    {
+      "titulo": "Oficina de Matemática",
+      "imagem": "/certificados/ofcMat.jpg"
+    },
+    {
+      "titulo": "Oficina de Língua Portuguesa",
+      "imagem": "/certificados/ofcPort.jpg"
+    },
+    {
+      "titulo": "Oficina de Química",
+      "imagem": "/certificados/ofcQuim.jpg"
+    }
+  ]
+}

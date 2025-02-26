@@ -1,0 +1,140 @@
+.container {
+  margin: 0;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+/* Lateral fixa */
+.lateral {
+  color: white;
+  width: 30%;
+  padding: 2rem;
+  box-sizing: border-box;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh; /* Ocupa toda a altura da tela */
+  background: #5f4282;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Ajusta para não sobrepor a lateral */
+.bio {
+  width: 60%;
+  margin-left: 30%;
+  box-sizing: border-box;
+  padding-top: 2rem;
+}
+
+.bio ul {
+  padding-left: 4rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.bio p {
+  text-align: justify;
+}
+
+.profileImage {
+  border-radius: 50%;
+  width: 250px; /* Define um tamanho fixo */
+  height: 250px; /* Mantém a proporção */
+  object-fit: cover; /* Garante que a imagem não achate */
+}
+
+.backImg {
+  padding-top: 1.5rem;
+  text-align: center;
+}
+
+.backImg p {
+  padding-top: 1.5rem;
+}
+
+.certificados {
+  margin-top: 20px;
+  color: white;
+}
+
+.certificados h2 {
+  margin-bottom: 1rem;
+  color: black;
+}
+
+.certificados ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.certificados li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #5f4282;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  width: 23rem;
+}
+
+.certificados img {
+  border-radius: 5px;
+  width: 20rem;
+  height: 15rem;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .lateral {
+    position: static;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .bio {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+    padding-top: 2rem;
+  }
+
+  .bio ul {
+    padding-left: 0;
+    list-style-type: none;
+  }
+
+  .certificados ul {
+    justify-content: center;
+  }
+
+  .certificados li {
+    width: 20rem;
+  }
+
+  .certificados img {
+    width: 18rem;
+    height: 13rem;
+  }
+
+  .profileImage {
+    width: 200px; /* Define um tamanho fixo */
+    height: 200px; /* Mantém a proporção */
+  }
+}
